@@ -1,4 +1,3 @@
-<!--- http://notehub.org/2013/12/6/-2 -->
 #BlackBerry 10 WebWorks for Linux
 
 

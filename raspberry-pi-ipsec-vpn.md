@@ -1,4 +1,3 @@
-<!--- http://notehub.org/2013/12/6/raspberry-pi-ipsec-vpn -->
 #Raspberry Pi IPSec VPN
 
 >This is the setup for a IPSec VPN running on a raspberry pi. I have set one up and running so i can access my home network from any ware i am with my BlackBerry Z10

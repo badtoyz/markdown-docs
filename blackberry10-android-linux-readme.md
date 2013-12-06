@@ -1,4 +1,3 @@
-<!--- http://notehub.org/2013/12/6/blackberry-10-android-sdk-for-linux --> 
 #BlackBerry 10 Android SDK for Linux
 
 Not much has to be done for this SDK to work with Linux as it is just shell scripts and java. All i did was removed the windows batch scripts and chmod 755 the bin dir. With that being said all you have to do is do a git clone and your on your way to converting android apk file to blackberry 10 bar files.
