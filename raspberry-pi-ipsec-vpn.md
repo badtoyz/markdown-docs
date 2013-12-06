@@ -18,6 +18,7 @@ This is the setup for a ipsec vpn running on a raspberry pi. I have set one up a
 ##Add configuration
 
 *Copy the following into /etc/strongswan.conf*
+
     charon {
         plugins {                
             dhcp {
