@@ -9,16 +9,16 @@
 
 **Settings->Security and Privacy->Certificates**
 
->press the **+ import** button on the bottem. Now find the CA.cer cert on your phone.
->It will say **About to import certificate strongswan CA**
->Check **Restrict uasge to VPN**
+>press the **+ import** button on the bottom. Now find the CA.cer cert on your phone.
+>It will say **About to import certificate StrongSwan CA**
+>Check **Restrict usage to VPN**
 >Then press next and it will import your cert$
 
 ##Configure VPN 
 
 **Settings->Network and Connections->VPN**
 
->press the **+ Add** button on the bottem
+>press the **+ Add** button on the bottom
 
 >**Profile Name:** *what you want*
 >**Server Address:** *your domain or ip address*
@@ -29,12 +29,12 @@
 >**MSCHAPv2 Password:** *your password*
 >**Gateway Auth Type:** *PKI*
 >**Gateway Auth ID Type:** *Identity Certificate Distinguished Name*
->**Gateway CA Certificate:** *strongSwan CA*
+>**Gateway CA Certificate:** *StrongSwan CA*
 
->Now pess **Save** button on the bottem
+>Now press **Save** button on the bottom
 
 ##Using the VPN on your BlackBerry 10 device
 
->Now that your have you vpn configured you can connect to your vpn at any time you want by going to Settings->Network and Connections->VPN and pressing on the VPN profile you created. 
->You can also setup wifi profiles that use this VPN profile so you can have added securety when connecting to open or less secure hotsopts
+>Now that your have you VPN configured you can connect to your VPN at any time you want by going to Settings->Network and Connections->VPN and pressing on the VPN profile you created. 
+>You can also setup wifi profiles that use this VPN profile so you can have added security when connecting to open or less secure hotsopts
 

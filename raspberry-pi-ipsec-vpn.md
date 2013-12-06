@@ -1,19 +1,19 @@
 <!--- http://notehub.org/2013/12/6/raspberry-pi-ipsec-vpn -->
 #Raspberry Pi IPSec VPN
 
->This is the setup for a ipsec vpn running on a raspberry pi. I have set one up and running so i can access my home network from anyware i am with my BlackBerry Z10
+>This is the setup for a IPSec VPN running on a raspberry pi. I have set one up and running so i can access my home network from any ware i am with my BlackBerry Z10
 
-##Requrerments 
+##Requirements 
 
 *   [Raspberry Pi](http://www.raspberrypi.org/)
 *   [Raspian](http://www.raspbian.org/)
 *   [StrongSwan for raspberry pi](http://www.strongswan.org/)
 
->I use [Raspian Server Edition](http://sirlagz.net/tag/raspbian-server-edition/) for this project myself because you dont need the extra stuff that comes with Raspin if you dont use it as a desktop
->StrongSwan is a IPSec vpn server that is compatable with BlackBerry 10 devices and PlayBook. It has been ported to work with the raspberry pi.
+>I use [Raspian Server Edition](http://sirlagz.net/tag/raspbian-server-edition/) for this project myself because you don't need the extra stuff that comes with Raspin if you don't use it as a desktop
+>StrongSwan is a IPSec VPN server that is compatible with BlackBerry 10 devices and PlayBook. It has been ported to work with the raspberry pi.
 
 
-##Install strongswan
+##Install StrongSwan
 
      echo "deb http://p.quinput.eu/debfarm/ unstable all" >> /etc/apt/sources.list
      apt-get update

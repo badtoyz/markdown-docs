@@ -2,7 +2,7 @@
 #BlackBerry 10 WebWorks for Linux
 
 
-This is my on going project of keeping the BlackBerry 10 webworks platform compatable with linux. BlackBerry makes all the SDK's avalabe to linux but webworks, so thats where i come in and fill that gap. I am doing this project by my self and on my free time and any help would be great and feedback is always great.
+This is my on going project of keeping the BlackBerry 10 WebWorks platform compatible with Linux. BlackBerry makes all the Sdk's available to Linux but WebWorks, so that's where i come in and fill that gap. I am doing this project by my self and on my free time and any help would be great and feedback is always great.
 
 **Requirements**
 
@@ -10,7 +10,7 @@ This is my on going project of keeping the BlackBerry 10 webworks platform compa
 *	[Openjdk](http://openjdk.java.net/)
 *	[Node](http://nodejs.org)
 
-> BlackBerry will only support the other sdk's if you are using Ubuntu, so if you plan one using the [Blackberry NDK](http://developer.blackberry.com/native/) and may need support i would suggest Ubuntu. This will run on most linux distros the way it is. I do all my work on [Debian](http://debian.org). 
+> BlackBerry will only support the other sdk's if you are using Ubuntu, so if you plan one using the [Blackberry NDK](http://developer.blackberry.com/native/) and may need support i would suggest Ubuntu. This will run on most Linux distros the way it is. I do all my work on [Debian](http://debian.org). 
 
 **Installation**
 
@@ -39,10 +39,10 @@ This is my on going project of keeping the BlackBerry 10 webworks platform compa
     See 'webworks help <command>' for more information on a specific command.
 
 
-> This is for the Web GUI Frontend    
+> This is for the Web GUI Front end    
 
     usage: start-ui
-    This will start a the web gui frontend to webworks. open a browser and goto localhost:3123 
+    This will start a the web gui front end to webworks. open a browser and go to localhost:3123 
 
 **Links**
 
