@@ -1,3 +1,4 @@
+<!--- http://notehub.org/2013/12/6/blackberry-10-ipsec-vpn-setup -->
 #BlackBerry 10 IPSec VPN Setup
 
 >Now that you have your StrongSwan IPSec VPN setup now you want to connect to it
