@@ -11,7 +11,7 @@
 >press the **+ import** button on the bottem. Now find the CA.cer cert on your phone.
 >It will say **About to import certificate strongswan CA**
 >Check **Restrict uasge to VPN**
->Then press next and it will import your cert
+>Then press next and it will import your cert$
 
 ##Configure VPN 
 

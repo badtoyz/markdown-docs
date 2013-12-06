@@ -1,13 +1,16 @@
 <!--- http://notehub.org/2013/12/6/raspberry-pi-ipsec-vpn -->
 #Raspberry Pi IPSec VPN
 
-This is the setup for a ipsec vpn running on a raspberry pi. I have set one up and running so i can access my home network from anyware i am with my BlackBerry Z10
+>This is the setup for a ipsec vpn running on a raspberry pi. I have set one up and running so i can access my home network from anyware i am with my BlackBerry Z10
 
 ##Requrerments 
 
 *   [Raspberry Pi](http://www.raspberrypi.org/)
 *   [Raspian](http://www.raspbian.org/)
 *   [StrongSwan for raspberry pi](http://www.strongswan.org/)
+
+>I use [Raspian Server Edition](http://sirlagz.net/tag/raspbian-server-edition/) for this project myself because you dont need the extra stuff that comes with Raspin if you dont use it as a desktop
+>StrongSwan is a IPSec vpn server that is compatable with BlackBerry 10 devices and PlayBook. It has been ported to work with the raspberry pi.
 
 
 ##Install strongswan
@@ -63,7 +66,7 @@ This is the setup for a ipsec vpn running on a raspberry pi. I have set one up a
     net.ipv4.ip_forward = 1
     net.ipv4.conf.default.proxy_arp = 1
     net.ipv4.conf.default.arp_accept = 1
-    net.ipv4.conf.default.proxy_arp_pvlan = 1
+    net.ipv4.conf.default.proxy_arp_pvlan = 1$
 
 ##Generate certs
 
@@ -84,7 +87,7 @@ This is the setup for a ipsec vpn running on a raspberry pi. I have set one up a
     mv serverCert.pem /etc/ipsec.d/certs/
     mv serverKey.pem /etc/ipsec.d/private/
 
->For blackberry certs rename the CA.crt to CA.cer 
+>For blackberry certs rename the CA.crt to CA.cer and copy that file to a usb thumb drive so you can setup your device later
 
 ##Adding IPSec to run at boot
     
