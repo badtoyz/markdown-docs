@@ -9,6 +9,7 @@
 *   [StrongSwan for raspberry pi](http://www.strongswan.org/)
 
 >I use [Raspian Server Edition](http://sirlagz.net/tag/raspbian-server-edition/) for this project myself because you don't need the extra stuff that comes with Raspin if you don't use it as a desktop
+
 >StrongSwan is a IPSec VPN server that is compatible with BlackBerry 10 devices and PlayBook. It has been ported to work with the raspberry pi.
 
 
