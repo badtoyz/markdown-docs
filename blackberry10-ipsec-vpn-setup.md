@@ -21,14 +21,23 @@
 >press the **+ Add** button on the bottom
 
 >**Profile Name:** *what you want*
+
 >**Server Address:** *your domain or ip address*
+
 >**Gateway Type:** *Microsoft IKEv2 VPN Server*
+
 >**Authentication Type:** *EAP-MSCHAPv2*
+
 >**Authentication ID Type:** *Fully Qualified Domain Name*
+
 >**Authentication ID:** *your login*
+
 >**MSCHAPv2 Password:** *your password*
+
 >**Gateway Auth Type:** *PKI*
+
 >**Gateway Auth ID Type:** *Identity Certificate Distinguished Name*
+
 >**Gateway CA Certificate:** *StrongSwan CA*
 
 >Now press **Save** button on the bottom
