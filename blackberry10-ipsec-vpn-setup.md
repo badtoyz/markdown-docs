@@ -44,5 +44,6 @@
 ##Using the VPN on your BlackBerry 10 device
 
 >Now that your have you VPN configured you can connect to your VPN at any time you want by going to Settings->Network and Connections->VPN and pressing on the VPN profile you created. 
+
 >You can also setup wifi profiles that use this VPN profile so you can have added security when connecting to open or less secure hotsopts
 
