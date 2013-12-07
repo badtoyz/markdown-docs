@@ -1,12 +1,12 @@
-##Vsftpd config for raspberry pi
+#Vsftpd config for raspberry pi
 
 >This is what i did to mike my Raspberry Pi have FTP access for all of its users
 
-#Install
+##Install
 
         sudo apt-get install vsftpd
         
-#Configure
+##Configure
 
 **edit /etc/vsftpd.conf**
 
@@ -25,7 +25,7 @@
 
 >**user1** **user2** **user3**
 
-#Restart the service
+##Restart the service
 
     sudo service vsftpd restart
     
