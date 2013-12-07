@@ -30,3 +30,6 @@
     sudo service vsftpd restart
     
 
+**Contact me**
+
+[Email](mailto:badtoyz@gmail.com) - [Twitter](https://twitter.com/badtoyz) - [Github](https://github.com/badtoyz)

@@ -47,3 +47,6 @@
 
 >You can also setup wifi profiles that use this VPN profile so you can have added security when connecting to open or less secure hotsopts
 
+**Contact me**
+
+[Email](mailto:badtoyz@gmail.com) - [Twitter](https://twitter.com/badtoyz) - [Github](https://github.com/badtoyz)

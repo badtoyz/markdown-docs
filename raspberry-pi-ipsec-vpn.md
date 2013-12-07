@@ -97,3 +97,6 @@
 
 Open up ports udp 500 and udp 4500 to let them through to the vpn server. Here you will have to do port forwarding with your router
 
+**Contact me**
+
+[Email](mailto:badtoyz@gmail.com) - [Twitter](https://twitter.com/badtoyz) - [Github](https://github.com/badtoyz)
