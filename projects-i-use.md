@@ -2,7 +2,8 @@
 
 ##Editors
 
-[Brackets](brackets.i)
+[Brackets](brackets.io)
+
 [kaa Edit](http://kaaedit.github.io/)
 
 
@@ -14,6 +15,7 @@
 ##Email
 
 [Offline imap](http://offlineimap.org/)
+
 [Sup](http://supmua.org)
 
 
