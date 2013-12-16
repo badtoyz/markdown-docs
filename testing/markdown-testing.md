@@ -47,3 +47,7 @@ Links are done with brackets \[]()
     [label](www.website.com)
     
 [website](www.website.com)
+
+Line Breaks are done with \---
+
+---
