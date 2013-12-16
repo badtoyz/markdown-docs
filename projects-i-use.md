@@ -18,10 +18,6 @@
 
 [Sup](http://supmua.org)
 
-
-
-
-
 ##Calander
 [Calcurse](http://calcurse.org/)
 
@@ -39,3 +35,7 @@
 [Weechat](http://www.weechat.org/)
 
 [Limnoria](https://github.com/ProgVal/Limnoria)
+
+##AUDIO
+
+[CMus](http://cmus.sourceforge.net/)
