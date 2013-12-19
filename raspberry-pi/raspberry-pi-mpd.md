@@ -1,5 +1,5 @@
 #Raspberry Pi MPD music server
->This will get you setup with a MPD server running on a Raspberry Pi at about 30% cpu load for streaming over http.
+>This will get you setup with a MPD server running on a Raspberry Pi at about 30% cpu load for streaming over http.Yoou can edit your files your self or replace the mpd.conf with the one here. it has been striped down to only what is needed.
 
 ##Getting started
 >You will have to have a full Raspberry Pi setup and in running form. This how to will be based off of raspbian (Debian).
@@ -75,4 +75,5 @@ Do these command to finish every thing off
 **Contact me**
 
 [Email](mailto:badtoyz@gmail.com) - [Twitter](https://twitter.com/badtoyz) - [Github](https://github.com/badtoyz)
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
