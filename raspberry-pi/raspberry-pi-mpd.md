@@ -2,18 +2,28 @@
 >This will get you setup with a MPD server running on a Raspberry Pi at about 30% cpu load for streaming over http.
 
 ##Getting started
->You will have to have a full Raspberry Pi setup and in running form. This howto will be based off of raspbian (debain).
+>You will have to have a full Raspberry Pi setup and in running form. This how to will be based off of raspbian (Debian).
         
         sudo apt-get install mpd mpc flac
         
-##Now we have to eddit /etc/mpd.conf
+##Now we have to edit /etc/mpd.conf
 
-If you want to change your music dir then chage this value or put your music there for mpd to find
+If you want to change your music dir then change this value or put your music there for mpd to find
 
-music_directory		"/var/lib/mpd/music"
+    music_directory 		"/var/lib/mpd/music"
 
+I comment out all of the preset alsa settings (Putting # in front will comment out)
 
-
+    #audio_output {
+    #       type            "alsa"
+    #       name            "My ALSA Device"
+    #       device          "hw:0,0"        # optional
+    #       format          "44100:16:2"    # optional
+    #       mixer_type      "hardware"      # optional
+    #       mixer_device    "default"       # optional
+    #       mixer_control   "PCM"           # optional
+    #       mixer_index     "0"             # optional
+    #}
 
 This is for the httpd streaming output
 
@@ -28,3 +38,38 @@ This is for the httpd streaming output
     #       format          "44100:16:1"
     #       max_clients     "0"                     # optional 0=no limit
     }
+    
+Uncomment this to look like this (Delete the # from the beginning)
+   
+    audio_output_format		"44100:16:2"
+
+and
+
+    samplerate_converter		"Fastest Sinc Interpolator"
+
+##Permissions
+
+>Mpd needs to have the permission to access /var/lib/mpd
+
+    sudo chown -R mpd /var/lib/mpd
+
+>Now start the Daemon
+
+    sudo service mpd start
+
+    
+##Finishing up
+
+>Now that you have it configured and the right permissions set you need to add music. You will need to put your music in /var/lib/mpc/music or if you changed it place the music files in that dir.
+
+Do these command to finish every thing off
+
+    mpc update
+    mpc add /
+    mpc play
+    
+>Now your Raspberry Pi is streaming music over the Raspberry pi's ip address at port 8000
+    
+    http://<ip adress>:8000
+    
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
