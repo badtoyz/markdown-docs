@@ -3,7 +3,7 @@
 
 This is my on going project of keeping the BlackBerry 10 WebWorks platform compatible with Linux. BlackBerry makes all the Sdk's available to Linux but WebWorks, so that's where i come in and fill that gap. I am doing this project by my self and on my free time and any help would be great and feedback is always great.
 
-**Requirements**
+##Requirements
 
 *	[Ubuntu](http://www.ubuntu.com/)
 *	[Openjdk](http://openjdk.java.net/)
@@ -11,13 +11,13 @@ This is my on going project of keeping the BlackBerry 10 WebWorks platform compa
 
 > BlackBerry will only support the other sdk's if you are using Ubuntu, so if you plan one using the [Blackberry NDK](http://developer.blackberry.com/native/) and may need support i would suggest Ubuntu. This will run on most Linux distros the way it is. I do all my work on [Debian](http://debian.org). 
 
-**Installation**
+##Installation
 
 		git clone https://github.com/badtoyz/BB10-WebWorks-SDK-2.0.0.54-Beta.git
 		cd BB10-WebWorks-SDK-2.0.0.54-Beta
 		
 
-**Commands**
+##Commands
     
 
 > This is for the console command line options
@@ -43,7 +43,7 @@ This is my on going project of keeping the BlackBerry 10 WebWorks platform compa
     usage: start-ui
     This will start a the web gui front end to webworks. open a browser and go to localhost:3123 
 
-**Links**
+##Links
 
 *	[blackberry.com](http://blackberry.com)
 *	[developer.blackberry.com](http://developer.blackberry.com/) 
