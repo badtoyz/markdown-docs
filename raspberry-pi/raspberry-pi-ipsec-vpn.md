@@ -25,58 +25,58 @@ apt-get install strongswan
 
 *Copy the following into /etc/strongswan.conf*
 
-    ``
-    charon {
-        plugins {                
-            dhcp {
-        identity_lease = yes
-        }
-        }
+```
+charon {
+plugins {                
+        dhcp {
+    identity_lease = yes
     }
+    }
+}
 
-    libstrongswan {
-    }
-    ``
+libstrongswan {
+}
+```
 
 *Copy the following into /etc/ipsec.conf*
     
-    ``
-    config setup
-    conn %default
-        auto=add
-        left=%any
-        leftsubnet=0.0.0.0/0
-        right=%any
-        rightsourceip=%dhcp
-        forceencaps=yes
-        compress=yes
-    conn rw-eap
-        dpdaction=clear
-        dpddelay=300s
-        leftauth=pubkey
-        leftcert=serverCert.pem
-        rightauth=eap-mschapv2
-        rightsendcert=never
-    ``
+```
+config setup
+conn %default
+    auto=add
+    left=%any
+    leftsubnet=0.0.0.0/0
+    right=%any
+    rightsourceip=%dhcp
+    forceencaps=yes
+    compress=yes
+conn rw-eap
+    dpdaction=clear
+    dpddelay=300s
+    leftauth=pubkey
+    leftcert=serverCert.pem
+    rightauth=eap-mschapv2
+    rightsendcert=never
+```
 
 *Copy the following into /etc/ipsec.secrets. Here 2 users/pass are declared*
     
-    ``
-    alice : XAUTH "wonderland"
-    bob : XAUTH "builder"
-    : RSA serverKey.pem
-    ``
+```
+alice : XAUTH "wonderland"
+bob : XAUTH "builder"
+: RSA serverKey.pem
+```
 
 >These are just test user names and password. change then to what you need
 
 *Copy the following into /etc/sysctl.conf*
 
-    ``
+    ```
     net.ipv4.ip_forward = 1
     net.ipv4.conf.default.proxy_arp = 1
     net.ipv4.conf.default.arp_accept = 1
     net.ipv4.conf.default.proxy_arp_pvlan = 1$
-    ``
+    ```
 
 ##Generate certs
 
@@ -84,7 +84,7 @@ apt-get install strongswan
 
 >Replace your.domain.com with your ip or domain name. you can use a serves like dyndns
 
-    ``
+    ```
     export H=your.domain.com
 
     ipsec pki --gen --outform pem > caKey.pem
@@ -97,15 +97,15 @@ apt-get install strongswan
     mv caCert.pem /etc/ipsec.d/cacerts/
     mv serverCert.pem /etc/ipsec.d/certs/
     mv serverKey.pem /etc/ipsec.d/private/
-    ``
+    ```
 
 >For blackberry certs rename the CA.crt to CA.cer and copy that file to a usb thumb drive so you can setup your device later
 
 ##Adding IPSec to run at boot
     
-    ``
+    ```
     update-rc.d ipsec defaults
-    ``
+    ```
 
 ##Firewall
 
