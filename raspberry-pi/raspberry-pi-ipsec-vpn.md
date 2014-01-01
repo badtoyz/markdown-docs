@@ -71,12 +71,12 @@ bob : XAUTH "builder"
 
 *Copy the following into /etc/sysctl.conf*
 
-    ```
+```
     net.ipv4.ip_forward = 1
     net.ipv4.conf.default.proxy_arp = 1
     net.ipv4.conf.default.arp_accept = 1
     net.ipv4.conf.default.proxy_arp_pvlan = 1$
-    ```
+```
 
 ##Generate certs
 
@@ -84,7 +84,7 @@ bob : XAUTH "builder"
 
 >Replace your.domain.com with your ip or domain name. you can use a serves like dyndns
 
-    ```
+```
     export H=your.domain.com
 
     ipsec pki --gen --outform pem > caKey.pem
@@ -97,7 +97,7 @@ bob : XAUTH "builder"
     mv caCert.pem /etc/ipsec.d/cacerts/
     mv serverCert.pem /etc/ipsec.d/certs/
     mv serverKey.pem /etc/ipsec.d/private/
-    ```
+```
 
 >For blackberry certs rename the CA.crt to CA.cer and copy that file to a usb thumb drive so you can setup your device later
 
