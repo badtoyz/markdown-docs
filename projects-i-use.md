@@ -3,7 +3,10 @@
 >This is some of the projects that i use. I manly use [KDE](kde.org) and Yakuake for a terminal. I do am majority of my work in the CLI (Command Line Interface).
 >I have been using Linux since about 1995 and have had to use the CLI for a long time to get thing done in Linux. Now day a lot has changed and is not needed as much any more, but being stuck in my ways i still do most thing in the CLI but browse the web.
 
+##Window Manager
 
+[i3wm](i3wm.org)
+[KDE](kde.org)
 
 ##Editors
 
@@ -13,6 +16,8 @@
 
 
 ##Browsers
+
+[Luakit](mason-larobina.github.io/luakit/)
 
 [FireFox](firefox.com)
 
@@ -24,6 +29,7 @@
 [Sup](http://supmua.org)
 
 ##Calander
+
 [Calcurse](http://calcurse.org/)
 
 ##Git
